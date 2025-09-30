@@ -27,12 +27,12 @@ body {
   /* background: linear-gradient(#dfe9f3, #ffffff); */
 }
 #player {
-  width: 100px;  /* 根据你的小鸟图片大小调整 */
+  width: 100px;  
   height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: url("img/bird.png") no-repeat center center;
-  background-size: contain; /* 保持比例缩放 */
+  background-size: contain; 
 }

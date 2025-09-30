@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  /* background: #f0f0f0; */
+  font-family: mojangles;
+  background-color: rgb(57, 42, 53);
+  text-align: center;
+}
+
+#gameArea {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(57, 42, 53);
+  /* background: linear-gradient(#dfe9f3, #ffffff); */
+}
+
+#player {
+  width: 100px; 
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("img/bird.png") no-repeat center center;
+  background-size: contain;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bird bird good</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+   
+
+    <div id="gameArea">
+        <h1>This is WHITE WAGTAIL!</h1>
+        <h2>press the arrow keys to move around</h2>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/White_wagtail" target="_blank">
+            <img src="img/bird.png" width="200" height="150">
+        </a>
+        <div id="player">
+        </div>
+    </div>
+
+
+
+  <script>
+    const player = document.getElementById("player");
+    const step = 5;
+    const gameArea = document.getElementById("gameArea");
+
+    const keys = {
+      ArrowLeft: false,
+      ArrowRight: false,
+      ArrowUp: false,
+      ArrowDown: false
+    };
+
+
+    let direction = "left";
+
+    document.addEventListener("keydown", (e) => {
+      if (keys.hasOwnProperty(e.key)) keys[e.key] = true;
+    });
+
+    document.addEventListener("keyup", (e) => {
+      if (keys.hasOwnProperty(e.key)) keys[e.key] = false;
+    });
+
+    function gameLoop() {
+      let left = player.offsetLeft;
+      let top = player.offsetTop;
+
+      if (keys.ArrowLeft) {
+        left -= step;
+        direction = "left";
+      }
+      if (keys.ArrowRight) {
+        left += step;
+        direction = "right";
+      }
+      if (keys.ArrowUp) top -= step;
+      if (keys.ArrowDown) top += step;
+
+
+      if (left < 0) left = 0;
+      if (left > gameArea.clientWidth - player.clientWidth) {
+        left = gameArea.clientWidth - player.clientWidth;
+      }
+      if (top < 0) top = 0;
+      if (top > gameArea.clientHeight - player.clientHeight) {
+        top = gameArea.clientHeight - player.clientHeight;
+      }
+
+
+      player.style.left = left + "px";
+      player.style.top = top + "px";
+
+
+      if (direction === "left") {
+        player.style.transform = "translate(-50%, -50%) scaleX(1)";
+      } else if (direction === "right") {
+        player.style.transform = "translate(-50%, -50%) scaleX(-1)";
+      }
+
+      requestAnimationFrame(gameLoop);
+    }
+
+    gameLoop();
+  </script>
+</body>
+</html>

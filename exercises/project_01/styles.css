@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: rgb(57, 57, 57);
+}
+
+.header{
+    margin: 80px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+.content {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.section {
+  display: none; /* 默认隐藏 */
+}
+
+.section.active {
+  display: block; /* 当前显示的 */
+}
+
+.grid-container {
+    margin: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 60px;
+}
+
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.image-container {
+    margin: 0;
+    padding: 0;
+}
+
+
+.image-container img {
+    display: block;   /* 消除底部空隙 */
+    width: 100%;
+    height: auto;
+}
+
+
+.image-container img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.item {
+    padding: 0;
+    border: 1px solid pink;
+    border-radius: 0;
+    /* background: #fff; */
+}
+
+.item:hover {
+    background: pink; 
+    color: black;  
+    cursor: pointer; 
+    transition: background 0.3s ease; 
+}

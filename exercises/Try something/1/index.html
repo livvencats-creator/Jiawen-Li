@@ -34,7 +34,7 @@
       ArrowDown: false
     };
 
-
+    // 当前朝向（默认朝左）
     let direction = "left";
 
     document.addEventListener("keydown", (e) => {
@@ -51,16 +51,16 @@
 
       if (keys.ArrowLeft) {
         left -= step;
-        direction = "left";
+        direction = "left"; // 改变朝向
       }
       if (keys.ArrowRight) {
         left += step;
-        direction = "right";
+        direction = "right"; // 改变朝向
       }
       if (keys.ArrowUp) top -= step;
       if (keys.ArrowDown) top += step;
 
-
+      // 边界检查
       if (left < 0) left = 0;
       if (left > gameArea.clientWidth - player.clientWidth) {
         left = gameArea.clientWidth - player.clientWidth;
@@ -70,11 +70,11 @@
         top = gameArea.clientHeight - player.clientHeight;
       }
 
-
+      // 更新位置
       player.style.left = left + "px";
       player.style.top = top + "px";
 
-
+      // 只在左右方向改变时翻转
       if (direction === "left") {
         player.style.transform = "translate(-50%, -50%) scaleX(1)";
       } else if (direction === "right") {

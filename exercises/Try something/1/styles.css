@@ -1,3 +1,16 @@
+@font-face {
+
+font-family: mojangles;
+
+src:url(mojangles.otf);
+
+
+font-weight:normal;
+
+font-style:normal;
+
+}
+
 body {
   margin: 0;
   overflow: hidden;
@@ -6,7 +19,6 @@ body {
   background-color: rgb(57, 42, 53);
   text-align: center;
 }
-
 #gameArea {
   width: 100vw;
   height: 100vh;
@@ -14,14 +26,13 @@ body {
   background-color: rgb(57, 42, 53);
   /* background: linear-gradient(#dfe9f3, #ffffff); */
 }
-
 #player {
-  width: 100px; 
+  width: 100px;  /* 根据你的小鸟图片大小调整 */
   height: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: url("img/bird.png") no-repeat center center;
-  background-size: contain;
+  background-size: contain; /* 保持比例缩放 */
 }

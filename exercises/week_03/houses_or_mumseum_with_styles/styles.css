@@ -4,10 +4,28 @@
   box-sizing: border-box;
 }
 
-
 body{
-    background-color: #000000;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #000000;
     color: #EB7F00;
+}
+
+
+
+main, header, footer{
+    padding: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color:#EB7F00
+}
+
+header, footer {
+    height: 20vh;
+}
+
+main {
+    height: 60vh;
+    background: black;
 }
 
 figure{

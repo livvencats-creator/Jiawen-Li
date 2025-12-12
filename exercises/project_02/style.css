@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Container spacing */
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+/* Base shape styles */
+.shape {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+
+/* Rotate on hover */
+.shape:hover {
+    transform: rotate(360deg);
+}
+
+/* Circle */
+.circle {
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    animation: bounce 0.1s infinite alternate;
+}
+
+/* 上下跳动动画 */
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-60px);
+    }
+}
+
+/* Square */
+.square {
+    background: #ffffff;
+}
+
+/* Equilateral triangle */
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 121px solid #ffffff; /* 60 * sqrt(3) ≈ 104 */
+    transform-origin: 50% 75%;
+}

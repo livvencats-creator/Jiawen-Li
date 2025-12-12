@@ -1,0 +1,105 @@
+/* -----------------------------------------
+   1. Color Palette
+------------------------------------------ */
+:root {
+  --color-primary: #4A90E2;
+  --color-secondary: #7B4397;
+  --color-accent: #F5A623;
+  --color-neutral: #F2F2F2;
+
+  /* Spacing scale */
+  --space-xs: 8px;
+  --space-m: 16px;
+  --space-xl: 32px;
+}
+
+/* -----------------------------------------
+   2. Typography
+------------------------------------------ */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+/* -----------------------------------------
+   3. Frames – transparent background,
+      black border, no shadow/no radius
+------------------------------------------ */
+.frame {
+  border: 1px solid #000;
+  padding: var(--space-xl);
+  margin: 0;
+  background: transparent;   /* 修正重点：不遮盖色块 */
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* -----------------------------------------
+   4. Type Ramp
+------------------------------------------ */
+.type-xl { font-size: 32px; font-weight: 700; }
+.type-lg { font-size: 24px; font-weight: 600; }
+.type-md { font-size: 18px; font-weight: 500; }
+.type-sm { font-size: 14px; }
+
+/* -----------------------------------------
+   5. Color Palette – black borders,
+      no radius, no shadow, colors visible
+------------------------------------------ */
+.color-grid {
+  display: flex;
+  /* 不加 gap，让整体紧贴不留白 */
+}
+
+.color-swatch {
+  padding: var(--space-m);
+  width: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+
+  border: 1px solid #000;   /* 黑色边框 */
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* 色块颜色（确保显色） */
+.color-primary { background: var(--color-primary); color: white; }
+.color-secondary { background: var(--color-secondary); color: white; }
+.color-accent { background: var(--color-accent); color: white; }
+.color-neutral { background: var(--color-neutral); color: #333; }
+
+/* -----------------------------------------
+   6. Button Component – black border,
+      square corners, no shadow
+------------------------------------------ */
+.primary-btn {
+  background: var(--color-primary);
+  padding: var(--space-m) var(--space-xl);
+  border: 1px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.2s linear;
+}
+
+.primary-btn:hover {
+  background: #3a7ac2;
+}
+
+.primary-btn:active {
+  background: #33689c;
+}

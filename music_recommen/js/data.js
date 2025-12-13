@@ -4,7 +4,7 @@ const defaultMusicData = [
     id: 1,
     title: "诗歌舞街",
     artist: "my little airport",
-    cover: "assets/sabina之泪.jpg",
+    cover: "assets/Sabina之泪.jpg",
     genres: ["Indie", "Electronic"],
     scenes: ["Solitude", "Studying"],
     reason: "深夜画图时听这首歌，会让时间变得缓慢。",

@@ -1,0 +1,621 @@
+/* CSS Variables for Minimalist Design */
+:root {
+    --bg: #e1e1e1;
+    --text-dark: #e8670c;
+    --text-light: #e8670c;
+    --accent: #d32f2f;
+    --border: #e0e0e0;
+    --hover-bg: #f5f5f5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-dark);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Site Name / Logo */
+.site-name {
+    position: fixed;
+    top: 40px;
+    left: 60px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.site-name a {
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.site-name a:hover {
+    color: var(--accent);
+}
+
+/* Edit Link - Top Right */
+.edit-link {
+    position: fixed;
+    top: 40px;
+    right: 60px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.edit-link a {
+    color: var(--text-dark);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.edit-link a:hover {
+    color: var(--accent);
+}
+
+/* Center Layout for Home/Selection Pages */
+.center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 40px 80px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    margin-bottom: 80px;
+    line-height: 1.1;
+    max-width: 900px;
+}
+
+/* Option List */
+.option-list {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: all 0.3s ease;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--text-dark);
+    position: relative;
+}
+
+.option::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 1px;
+    background: var(--text-dark);
+    transition: width 0.3s ease;
+}
+
+.option:hover::after {
+    width: calc(100% - 48px);
+}
+
+.option:hover {
+    color: var(--text-dark);
+}
+
+.divider {
+    width: 1px;
+    height: 16px;
+    background: var(--border);
+    margin: 0 8px;
+}
+
+/* Grid Layout for Explore Page */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 60px;
+    padding: 140px 80px 100px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card:active {
+    transform: translateY(-4px);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    background: var(--hover-bg);
+}
+
+.card p {
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    color: var(--text-dark);
+    text-transform: uppercase;
+}
+
+/* Page Title */
+.page-title {
+    margin: 140px 0 80px 80px;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+/* Sections for Detail/Upload Pages */
+.section {
+    margin: 0 80px 50px;
+    max-width: 800px;
+}
+
+.section:last-child {
+    margin-bottom: 100px;
+}
+
+.section h3 {
+    font-size: 11px;
+    margin-bottom: 16px;
+    color: var(--text-light);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.section p {
+    font-size: 16px;
+    width: 100%;
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin: 0;
+}
+
+.section input,
+.section textarea {
+    font-size: 16px;
+    width: 100%;
+    font-family: inherit;
+}
+
+/* Input & Textarea Styling */
+input,
+textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    color: var(--text-dark);
+    transition: border-color 0.3s ease;
+    outline: none;
+    font-weight: 300;
+}
+
+input:focus,
+textarea:focus {
+    border-bottom-color: var(--text-dark);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--text-light);
+    opacity: 0.6;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+    line-height: 1.6;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    padding: 10px 20px;
+    border: 1px solid var(--text-dark);
+    background: transparent;
+    color: var(--text-dark);
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-right: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: var(--text-dark);
+    color: var(--bg);
+}
+
+/* Select Dropdown */
+select {
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+    color: var(--text-dark);
+    transition: border-color 0.3s ease;
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231a1a1a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+    padding-right: 24px;
+}
+
+select:focus {
+    border-bottom-color: var(--text-dark);
+}
+
+select option {
+    background: var(--bg);
+    color: var(--text-dark);
+    padding: 8px;
+}
+
+/* Cover Preview */
+.cover-preview {
+    margin-top: 20px;
+}
+
+.preview-image {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: block;
+}
+
+/* Detail Page Cover */
+.detail-cover {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background: transparent;
+    border: 1px solid var(--text-dark);
+    color: var(--text-dark);
+    padding: 14px 40px;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background: var(--text-dark);
+    color: var(--bg);
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
+
+/* Cancel Button */
+.cancel-btn {
+    background: transparent;
+    border: 1px solid var(--border, #e0e0e0);
+    color: var(--text-dark);
+    padding: 14px 40px;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cancel-btn:hover {
+    border-color: var(--text-dark);
+    background: var(--hover-bg, #f5f5f5);
+}
+
+.cancel-btn:active {
+    transform: scale(0.98);
+}
+
+/* Message Display */
+.message {
+    display: none;
+    margin-top: 20px;
+    padding: 12px 0;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.message.success {
+    color: var(--text-dark);
+    border-bottom: 1px solid var(--text-dark);
+}
+
+.message.error {
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+}
+
+/* Link Styling */
+a {
+    color: var(--text-dark);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--text-dark);
+}
+
+/* Checkbox Group Styling */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 32px;
+    margin-top: 8px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    user-select: none;
+}
+
+.checkbox-label input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--border);
+    margin: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.checkbox-label input[type="checkbox"]:checked {
+    border-color: var(--text-dark);
+    background: var(--text-dark);
+}
+
+.checkbox-label input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 4px;
+    height: 8px;
+    border: solid var(--bg);
+    border-width: 0 1px 1px 0;
+}
+
+.checkbox-label input[type="checkbox"]:hover {
+    border-color: var(--text-dark);
+}
+
+.checkbox-label span {
+    color: var(--text-dark);
+    transition: color 0.3s ease;
+}
+
+.checkbox-label:hover span {
+    color: var(--text-dark);
+}
+
+/* Edit List Styling */
+.edit-list {
+    padding: 140px 80px 100px;
+}
+
+.edit-item {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid var(--border, #e0e0e0);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-item:hover {
+    background-color: var(--hover-bg, #f5f5f5);
+}
+
+.edit-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.edit-item h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+}
+
+.edit-item p {
+    font-size: 14px;
+    color: var(--text-light, #666);
+    margin-bottom: 8px;
+}
+
+.edit-item p:last-child {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.edit-item .edit-btn {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-dark, #1a1a1a);
+    padding: 10px 20px;
+    border: 1px solid var(--text-dark, #1a1a1a);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+}
+
+.edit-item .edit-btn:active {
+    transform: scale(0.98);
+}
+
+.edit-item-buttons {
+    margin-left: auto;
+}
+
+.edit-item:hover .edit-btn {
+    background-color: var(--text-dark, #1a1a1a);
+    color: var(--bg, #ffffff);
+}
+
+/* Edit Item Buttons Container */
+.edit-item-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Delete Button */
+.delete-btn {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent, #d32f2f);
+    padding: 10px 20px;
+    border: 1px solid var(--accent, #d32f2f);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+}
+
+.delete-btn:hover {
+    background-color: var(--accent, #d32f2f);
+    color: var(--bg, #ffffff);
+}
+
+.delete-btn:active {
+    transform: scale(0.98);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-name {
+        top: 30px;
+        left: 30px;
+        font-size: 11px;
+    }
+
+    h1 {
+        font-size: 42px;
+        margin-bottom: 60px;
+    }
+
+    .option {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 40px;
+        padding: 120px 40px 80px;
+    }
+
+    .page-title {
+        margin: 120px 0 60px 40px;
+        font-size: 36px;
+    }
+
+    .section {
+        margin: 0 40px 40px;
+    }
+
+    .checkbox-group {
+        gap: 20px 24px;
+    }
+
+    .checkbox-label {
+        font-size: 14px;
+    }
+
+    .edit-link {
+        top: 30px;
+        right: 30px;
+        font-size: 11px;
+    }
+}

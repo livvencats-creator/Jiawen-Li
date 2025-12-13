@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Music</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="site-name"><a href="index.html">Auditory Collection</a></div>
+    <div class="page-title">EDIT MUSIC</div>
+
+    <form id="editForm">
+        <div class="section">
+            <h3>Album Cover</h3>
+            <input type="file" id="coverInput" accept="image/*" />
+            <div id="coverPreview" class="cover-preview"></div>
+        </div>
+        <div class="section">
+            <h3>Song Title</h3>
+            <input id="songTitle" placeholder="Song Title" required />
+        </div>
+        <div class="section">
+            <h3>Artist</h3>
+            <input id="artist" placeholder="Artist Name" required />
+        </div>
+        <div class="section">
+            <h3>Genre</h3>
+            <div class="checkbox-group" id="genreGroup">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Pop" />
+                    <span>Pop</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Indie" />
+                    <span>Indie</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Rock" />
+                    <span>Rock</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Electronic" />
+                    <span>Electronic</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Jazz" />
+                    <span>Jazz</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Classical" />
+                    <span>Classical</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="genre" value="Others" />
+                    <span>Others</span>
+                </label>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Listening Scenario</h3>
+            <div class="checkbox-group" id="sceneGroup">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="scene" value="Commuting" />
+                    <span>Commuting</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="scene" value="Traveling" />
+                    <span>Traveling</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="scene" value="Studying" />
+                    <span>Studying</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="scene" value="Exercising" />
+                    <span>Exercising</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="scene" value="Solitude" />
+                    <span>Solitude</span>
+                </label>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Recommendation Reason</h3>
+            <textarea id="reason" placeholder="Why do you recommend this song?" required></textarea>
+        </div>
+        <div class="section">
+            <h3>Major</h3>
+            <input id="major" placeholder="Major" required />
+        </div>
+        <div class="section">
+            <h3>Occupation</h3>
+            <input id="occupation" placeholder="Occupation" required />
+        </div>
+        <div class="section">
+            <h3>External Playback Link</h3>
+            <input id="playbackLink" type="url" placeholder="Spotify / Apple Music URL" />
+        </div>
+        <div class="section">
+            <button type="submit" class="submit-btn">SAVE CHANGES</button>
+            <button type="button" class="cancel-btn" onclick="window.location.href='edit.html'">CANCEL</button>
+            <div id="message" class="message"></div>
+        </div>
+    </form>
+
+    <script src="js/data.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/edit-form.js"></script>
+</body>
+</html>
+

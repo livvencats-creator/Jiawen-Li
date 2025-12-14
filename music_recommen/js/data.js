@@ -643,6 +643,62 @@ const defaultMusicData = [
       occupation: "Student"
     },
     link: "https://open.spotify.com/track/4jeJIw8nPdUiqBYiWRIP3g?si=7a1a516d2bdf4f63"
+  },
+  {
+    id: 47,
+    title: "Into the Red",
+    artist: "Hans Zimmer",
+    cover: "assets/rush.jpg",
+    genres: ["Others"],
+    scenes: ["Studying"],
+    reason: " ",
+    contributor: {
+      major: "Computer Science",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/7B9WXEqhJqkXAtLOGdg9Kf?si=b6355900ebe040d4"
+  },
+  {
+    id: 48,
+    title: "Wrath of Man",
+    artist: "Chris Benstead",
+    cover: "assets/Warth of Man.jpg",
+    genres: ["Others"],
+    scenes: ["Studying"],
+    reason: " ",
+    contributor: {
+      major: "Computer Science",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/72OwjpRu5Hl3CGXSDfgbYz?si=8d83eb90c4aa4320"
+  },
+  {
+    id: 49,
+    title: "14.3 Billion Years",
+    artist: "Andrew Prahlow",
+    cover: "assets/outer wilds.jpg",
+    genres: ["Electronic", "Others"],
+    scenes: ["Studying","Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Computer Science",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6Pk74EH6WUornCtIoP12jE?si=146a599111454fc2"
+  },
+  {
+    id: 50,
+    title: "Traveler's encore",
+    artist: "Andrew Prahlow",
+    cover: "assets/outer wilds2.jpg",
+    genres: ["Electronic", "Others"],
+    scenes: ["Studying","Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Computer Science",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3ocxOcf7yvQCJ5LRuex2iY?si=45287da256854faf"
   }
 ];
 

@@ -622,7 +622,7 @@ const defaultMusicData = [
     artist: "Pink Floyd",
     cover: "assets/wish you were here.jpg",
     genres: ["Pop", "Rock"],
-    scenes: ["Traveling", "Solitude", "Commuting"],
+    scenes: ["Traveling", "Commuting"],
     reason: " ",
     contributor: {
       major: "Architecture",
@@ -686,7 +686,6 @@ const defaultMusicData = [
     },
     link: "https://open.spotify.com/track/6Pk74EH6WUornCtIoP12jE?si=146a599111454fc2"
   },
-  
   {
     id: 50,
     title: "Traveler's encore",
@@ -700,6 +699,272 @@ const defaultMusicData = [
       occupation: "Student"
     },
     link: "https://open.spotify.com/track/3ocxOcf7yvQCJ5LRuex2iY?si=45287da256854faf"
+  },
+  {
+    id: 51,
+    title: "Event Horizon",
+    artist: "Younha",
+    cover: "assets/end theory.jpg",
+    genres: ["Pop", "Rock"],
+    scenes: ["Studying","Traveling", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6RBziRcDeiho3iTPdtEeg9?si=817829f958ed44ae"
+  },
+  {
+    id: 52,
+    title: "Waiting",
+    artist: "Younha",
+    cover: "assets/Waiting.jpg",
+    genres: ["Pop", "Rock"],
+    scenes: ["Traveling", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/33uA9i4mmbHbaFZ3i8GgxS?si=34cbd6c58ed74895"
+  },
+  {
+    id: 53,
+    title: "Sudden Shower",
+    artist: "ECLIPSE",
+    cover: "assets/Lovely_Runner_Pt.1.png",
+    genres: ["Pop", "Rock"],
+    scenes: ["Studying", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/1OhIn0L6iofnk5bjalWfHq?si=92cd6a2cdeef4321"
+  },
+  {
+    id: 54,
+    title: "Farewell Once Again",
+    artist: "Changseop Lee",
+    cover: "assets/Farewell once again.jpg",
+    genres: ["Pop"],
+    scenes: ["Studying", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/352KleOeLaDzFo8ieVd08b?si=160ba4a9208647eb"
+  },
+  {
+    id: 55,
+    title: "Coming of Age Story",
+    artist: "Mujin Lee",
+    cover: "assets/Coming Of Age Story.png",
+    genres: ["Pop"],
+    scenes: ["Traveling", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/2ZTU8atPwouhoQSvxv9aQj?si=d6d9296311d24cc7"
+  },
+  {
+    id: 56,
+    title: "Me After You",
+    artist: "Paul Kim",
+    cover: "assets/Me After You.jpg",
+    genres: ["Pop"],
+    scenes: ["Traveling", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3gucipmp9z0bf7pjEbtTX0?si=d0a7cd5cfa914724"
+  },
+  {
+    id: 57,
+    title: "Every day, Every Moment",
+    artist: "Paul Kim",
+    cover: "assets/Every day, Every Moment.jpg",
+    genres: ["Pop"],
+    scenes: ["Studying", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3Ml2s37uS9jqRM2R3bfDiB?si=b83e574dec04479b"
+  },
+  {
+    id: 58,
+    title: "Wherever you are",
+    artist: "ONE OK ROCK",
+    cover: "assets/Wherever you are.png",
+    genres: ["Pop", "Rock"],
+    scenes: ["Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/0YAMQSmHk6BSUGTYpaoqTJ?si=1a2eb1daa1414892"
+  },
+  {
+    id: 59,
+    title: "C.h.a.o.s.m.y.t.h.",
+    artist: "ONE OK ROCK",
+    cover: "assets/chaosmyth.jpg",
+    genres: ["Pop", "Rock"],
+    scenes: ["Studying", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/36rXRdVigyIu1HA4F31zgf?si=a0f68b04dd6d4c6d"
+  },
+  {
+    id: 60,
+    title: "The Beginning",
+    artist: "ONE OK ROCK",
+    cover: "assets/the beginning.jpg",
+    genres: ["Pop", "Rock"],
+    scenes: ["Studying", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/4f3nDjgqXurMryYBSp0TZD?si=9b02b62c09714454"
+  },
+  {
+    id: 61,
+    title: "TALACOWA",
+    artist: "珂拉琪 Collage",
+    cover: "assets/TALACOWA.jpg",
+    genres: ["Rock"],
+    scenes: ["Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/4098XwIN0tRJdWBq5mqe7m?si=433633cae6f34e89"
+  },
+  {
+    id: 62,
+    title: "Ruby",
+    artist: "Foster The People",
+    cover: "assets/Ruby.jpg",
+    genres: ["Pop"],
+    scenes: ["Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/1nPjPnOhuKXhhjHA5LSaqL?si=6c5dcd79d6d84484"
+  },
+  {
+    id: 63,
+    title: "The Trip",
+    artist: "Still Corners",
+    cover: "assets/The Trip.jpg",
+    genres: ["Pop", "Indie"],
+    scenes: ["Commuting", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/5nNNHAwXNpf8Nu7JgqizjJ?si=6688262271b74ef9"
+  },
+  {
+    id: 64,
+    title: "Dancehall",
+    artist: "Tribes",
+    cover: "assets/Dancehall.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6yfeHdqv6FPUofkSi4XOHM?si=44a440a49a0f4b90"
+  },
+  {
+    id: 65,
+    title: "Night Cruising",
+    artist: "kensuke ushio",
+    cover: "assets/Stream Night Cruising.jpg",
+    genres: ["Pop"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6DYBBhnfzBAXaILKWeV6ZR?si=79144ca19935440b"
+  },
+  {
+    id: 66,
+    title: "KIDS RETURN",
+    artist: "Joe Hisaish",
+    cover: "assets/Kidsreturn.jpg",
+    genres: ["Pop"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/73bKDtwdyJaWkSoIlqhU9w?si=bc44e342f37a49e2"
+  },
+  {
+    id: 67,
+    title: "不再猶豫",
+    artist: "Beyond",
+    cover: "assets/不再猶豫.jpg",
+    genres: ["Rock"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/56N5g7gyv5RYbEyM49EM5Z?si=120dafa8ae9a4818"
+  },
+  {
+    id: 68,
+    title: "Let's Get It Started",
+    artist: "Black Eyed Peas",
+    cover: "assets/LetsGetItStarted.jpg",
+    genres: ["Others"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/37LEkmNdegFwoS55DdL6Ov?si=959bbf6fbfee4ea1"
+  },
+  {
+    id: 69,
+    title: "Pac Man Fever",
+    artist: "Buckner & Garcia",
+    cover: "assets/61HMPBEiw+L._UXNaN_FMjpg_QL85_.jpg",
+    genres: ["Rock"],
+    scenes: ["Commuting","Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3xVcolYBGPcTQD1jvd1U3l?si=c6f98137b51942ec"
   }
 ];
 

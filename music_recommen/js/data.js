@@ -965,6 +965,440 @@ const defaultMusicData = [
       occupation: "Student"
     },
     link: "https://open.spotify.com/track/3xVcolYBGPcTQD1jvd1U3l?si=c6f98137b51942ec"
+  },
+  {
+    id: 70,
+    title: "Nochentera",
+    artist: "Vicco",
+    cover: "assets/Nochentera_Single_Cover.jpg",
+    genres: ["Pop"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/20CozgjF6bshBw8cLhN23B?si=392fbb8be430461e"
+  },
+  {
+    id: 71,
+    title: "JUMP",
+    artist: "Black Eyed Peas",
+    cover: "assets/JUMP.jpg",
+    genres: ["Pop"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3tw0Q7so1hjsXKSnDkurHT?si=d8096e66829a43de"
+  },
+  {
+    id: 72,
+    title: "I Gotta Feeling",
+    artist: "Black Eyed Peas",
+    cover: "assets/The_E.N.D._cover.png",
+    genres: ["Pop"],
+    scenes: ["Exercising", "Commuting", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/2H1047e0oMSj10dgp7p2VG?si=7e01de3325c341a9"
+  },
+  {
+    id: 73,
+    title: "Pump It",
+    artist: "Black Eyed Peas",
+    cover: "assets/Pump_It.png",
+    genres: ["Others"],
+    scenes: ["Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/2ygMBIctKIAfbEBcT9065L?si=8f071d148e8d48ec"
+  },
+  {
+    id: 74,
+    title: "places to be",
+    artist: "Fred again.., Anderson .Paak, CHIKA",
+    cover: "assets/Places to be.webp",
+    genres: ["Indie", "Electronic"],
+    scenes: ["Exercising", "Commuting","Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/561pBFcFL2Pwb9HPO9tU8J?si=1c93b8fef2d243c9"
+  },
+  {
+    id: 75,
+    title: "coffee",
+    artist: "corn wave",
+    cover: "assets/coffee.jpg",
+    genres: ["Indie", "Rock"],
+    scenes: ["Commuting","Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3Z43ko96z4mcQ4CqTtofiV?si=03e08f9378714094"
+  },
+  {
+    id: 76,
+    title: "元気です",
+    artist: "Takuro Yoshida",
+    cover: "assets/元気です.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting","Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6a0bS1qyuykfwKDuYumCh3?si=253ae2ad3611452a"
+  },
+  {
+    id: 77,
+    title: "Nangilima",
+    artist: "Smith & Thell",
+    cover: "assets/Nangilima.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting","Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/75eWcdirphZClDeEinSvnp?si=0463af14a4614fb8"
+  },
+  {
+    id: 78,
+    title: "Going to School",
+    artist: "John Williams, Yo-Yo Ma, Itzhak Perlman",
+    cover: "assets/going to school.jpg",
+    genres: ["Classical"],
+    scenes: ["Commuting","Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/7DP0JcrmISMPEioK46hONz?si=8294852602ab4fd7"
+  },
+  {
+    id: 79,
+    title: "いつも雨",
+    artist: "never young beach",
+    cover: "assets/いつも雨.jpg",
+    genres: ["Pop"],
+    scenes: ["Traveling","Solitude", "Studying"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3uCh7UhRyfrybQM9Q2WVoG?si=ea75561dbe5e49d4"
+  },
+  {
+    id: 80,
+    title: "哀しいことばかり",
+    artist: "never young beach",
+    cover: "assets/Natsuga Sousaseta.jpg",
+    genres: ["Pop"],
+    scenes: ["Solitude", "Studying"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6WSqMiLMpRgfmUx7ceUeLE?si=aac2e23a25ca491b"
+  },
+  {
+    id: 81,
+    title: "漫游",
+    artist: "迷失克莱因",
+    cover: "assets/漫游.jpg",
+    genres: ["Pop"],
+    scenes: ["Solitude", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/2niMrxF0xecLzeYSFzXY7q?si=f5d98460c4b64d58"
+  },
+  {
+    id: 82,
+    title: "足首",
+    artist: "Kinokoteikoku",
+    cover: "assets/足首.jpg",
+    genres: ["Pop"],
+    scenes: ["Solitude", "Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/7351nV7Ns6TEbBLKPYeu72?si=680b458d1d63436c"
+  },
+  {
+    id: 83,
+    title: "或る日の隅田川",
+    artist: "Miraidempa",
+    cover: "assets/或る日の隅田川.jpg",
+    genres: ["Indie", "Rock"],
+    scenes: ["Solitude", "Commuting", "Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/4uo6Q43ED5SryFjXbqSM4b?si=2nn4MBfGTIq0CFMTxm9OUw"
+  },
+  {
+    id: 84,
+    title: "Cloudy Mind",
+    artist: "Miraidempa",
+    cover: "assets/Cloud mind.jpg",
+    genres: ["Indie", "Rock"],
+    scenes: ["Solitude", "Commuting", "Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/39DcCQxPIMiTJnYOiqb2a2?si=57b5144ae7674df0"
+  },
+  {
+    id: 85,
+    title: "種",
+    artist: "GO!GO!7188",
+    cover: "assets/Tategami.jpg",
+    genres: ["Indie", "Rock"],
+    scenes: ["Solitude", "Commuting", "Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/0ZO57ZTSo5FABPb6tN2xGM?si=2232ecfb6df54450"
+  },
+  {
+    id: 86,
+    title: "神様のヒマ潰し",
+    artist: "GO!GO!7188",
+    cover: "assets/神様のヒマ潰し.jpg",
+    genres: ["Rock"],
+    scenes: ["Commuting", "Exercising"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/1NsGG8KGGX1iwB9SSgddCn?si=8df97623077a49f0"
+  },
+  {
+    id: 87,
+    title: "Flamenco Sketches",
+    artist: "Miles Davis",
+    cover: "assets/Flamenco Sketches.jpg",
+    genres: ["Jazz"],
+    scenes: ["Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6dRx7OUXfvosnXG3g9lWGi?si=a80438a7192a445a"
+  },
+  {
+    id: 88,
+    title: "夜が明けたら",
+    artist: "Maki Asakawa",
+    cover: "assets/夜が明けたら Maki Asakawa.jpg",
+    genres: ["Jazz"],
+    scenes: ["Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6eVMlMSGkU0sCsIKMeI46n?si=267633d750b84c8b"
+  },
+  {
+    id: 89,
+    title: "裏窓 - Live version",
+    artist: "Maki Asakawa",
+    cover: "assets/裏窓 - Live version.jpg",
+    genres: ["Jazz"],
+    scenes: ["Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/2Ly6HDCMJy4boloLOZCLmK?si=09bff9f35e8e4df4"
+  },
+  {
+    id: 90,
+    title: "Lord Mayo",
+    artist: "Joanie Madden",
+    cover: "assets/Lord Mayo Joanie Madden.jpg",
+    genres: ["Others"],
+    scenes: ["Commuting", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/5Hn1YvxUiVaIBvPkqeuX8z?si=7fe503bae21e450f"
+  },
+  {
+    id: 91,
+    title: "Thank You",
+    artist: "Dido",
+    cover: "assets/Dimitri_Vegas_&_Like_Mike_-_Thank_You_(Not_So_Bad).png",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/09CnYHiZ5jGT1wr1TXJ9Zt?si=661ba42449ca4a4d"
+  },
+  {
+    id: 92,
+    title: "Un trago de ti",
+    artist: "Vicco, Suu",
+    cover: "assets/Un trago de ti.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/09gbRdYD9b0bk3478Pgeiy?si=c877d7f089af4c0b"
+  },
+  {
+    id: 93,
+    title: "A Little While",
+    artist: "Yellow Days",
+    cover: "assets/A Little While.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/1ahzHj4rfljE8w4ZwpEjOM?si=6adb556c192e4905"
+  },
+  {
+    id: 94,
+    title: "踊り子",
+    artist: "Vaundy",
+    cover: "assets/踊り子.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/1YXot2MLAG9sttepCtBRM7?si=65762ed14cdc47a5"
+  },
+  {
+    id: 95,
+    title: "夜走",
+    artist: "打倒三明治",
+    cover: "assets/夜走.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/62HK3n0X9aZDptkhnoRvjG?si=e13f6a4bdf394a2c"
+  },
+  {
+    id: 96,
+    title: "I Could Fight On A Wall",
+    artist: "Aquilo",
+    cover: "assets/I Could Fight On A Wall.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting","Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/0ykOwUlNIOejwOOSylGlQs?si=e105674568e94b9a"
+  },
+  {
+    id: 97,
+    title: "Fake Empire",
+    artist: "The National",
+    cover: "assets/Fake Empire.jpg",
+    genres: ["Rock"],
+    scenes: ["Studying", "Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/7hanhZrUArC9qUerln4jh1?si=fc340e6530134d70"
+  },
+  {
+    id: 98,
+    title: "At Home",
+    artist: "Crystal Fighters",
+    cover: "assets/at home crystal fighters.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3dXNrqnhNUPdrkvnj8TjvX?si=d7680690bf0c40a0"
+  },
+  {
+    id: 99,
+    title: "おつかれSUMMER",
+    artist: "HALCALI",
+    cover: "assets/おつかれSUMMER.jpg",
+    genres: ["Pop"],
+    scenes: ["Commuting", "Traveling"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/3clPsjTbx4UOPMeQn7FZkV?si=94a6813f08ab4336"
+  },
+  {
+    id: 100,
+    title: "Natsuga Sousaseta",
+    artist: "never young beach",
+    cover: "assets/Natsuga Sousaseta.jpg",
+    genres: ["Pop"],
+    scenes: ["Studying", "Traveling", "Solitude"],
+    reason: " ",
+    contributor: {
+      major: "Architecture",
+      occupation: "Student"
+    },
+    link: "https://open.spotify.com/track/6WSqMiLMpRgfmUx7ceUeLE?si=5952f60066da4d98"
   }
 ];
 
